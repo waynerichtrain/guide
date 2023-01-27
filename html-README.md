@@ -1,5 +1,8 @@
-Define meta contents of website
-    <head></head>
+<head></head>
+    Define meta contents of website
 
-To style the page similarly on Mobile, Desktop, Laptop
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    To style the page similarly on Mobile, Desktop, Laptop
+
+<div></div>
+    Mainly used for design layout purposes
