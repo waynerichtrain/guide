@@ -11,3 +11,7 @@
 <section></section>
 <article></article>
     Contains multiple elements that have related information
+<footer></footer>
+
+<hr>
+    Display a divider between contents
