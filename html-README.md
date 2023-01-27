@@ -6,3 +6,8 @@
 
 <div></div>
     Mainly used for design layout purposes
+
+<main></main>
+<section></section>
+<article></article>
+    Contains multiple elements that have related information
