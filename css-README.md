@@ -2,28 +2,38 @@ background-color
 background-image
 color
 
-border-color
-background-color
-height
-width
-border-width
 
 font-family
 font-size
 font-style
 font-weight
 
+
+BORDER
+    adds space (even if it's only a pixel or two) between the margin and the padding
+border-color
+background-color
+height
+width
+border-width
+
+
+MARGIN
+    increases the space between a box and any others that sit next to it
 margin-left: auto;
 margin-right: auto;
     Centering a <div> horizontally
 margin: 20px auto; /* Applies 20px top and bottom margin, auto left and right margin */
 
+
+PADDING
+    increases the space between the edge of a box and the content inside of it
 padding-left: 20px;
 padding-right: 20px;
 padding-top: 20px;
 padding-bottom: 20px;
-    Adding space between content and its sides
 padding: 20px; /* padding of 20px in all 4 sides */
+
 
 display: inline-block (only takes up the width of content)
     To manipulate block-level elements to inline elements
