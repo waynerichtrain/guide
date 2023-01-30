@@ -18,6 +18,21 @@
 <hr>
     Display a divider between contents
 
+<h1></h1>
+    Heading element: Applicable from 1-6, highest to lowest respectively
+
+<p></p>
+    Paragraph element
+
+<strong></strong>
+    Bold text: Used for Accessibility
+
+<em></em>
+    Italized text: Used for Accessibility
+
+<!-- -->
+    Commenting
+
 <ol>
     <li></li>
 </ol>
@@ -40,19 +55,23 @@
     <img src="" alt="">
     <figcaption></figcaption>
 </figure>
-    To add image with caption in an organized manner
+    Represents self-contained content to associate an image with a caption
 
-<h1></h1>
-    Heading element: Applicable from 1-6, highest to lowest respectively
-
-<p></p>
-    Paragraph element
-
-<strong></strong>
-    Bold text: Used for Accessibility
-
-<em></em>
-    Italized text: Used for Accessibility
-
-<!-- -->
-    Commenting
+<form action="https://domainname.domain">
+    <fieldset>
+    <legend>Description of fieldset</legend>
+    <input id="it" type="radio" name="field" value="it" checked><label for="it">Information Technology</label>
+    <input id="cs" type="radio" name="field" value="cs"><label for="cs">Computer Science</label>
+    </fieldset>
+    <fieldset>
+    <legend>Description of fieldset</legend>
+    <input id="html" type="checkbox" name="prog-lang" value="html" checked><label for="html">HTML</label>
+    <input id="css" type="checkbox" name="prog-lang" value="css"><label for="css">CSS</label>
+    <input id="js" type="checkbox" name="prog-lang" value="js"><label for="js">Javascript</label>
+    </fieldset>
+    <input type="text" name="" placeholder="" required>
+    <button type="submit">Submit</submit>
+</form>
+<label></label>         associates text for an input element with the input element itself
+<fieldset></fieldset>   used to group related inputs and labels together in a web form
+<legend></legend>       acts as a caption for the content for <fieldset> element
