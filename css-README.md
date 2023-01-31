@@ -1,16 +1,50 @@
-background-color
-background-image
-color
+SELECTORS:
+*               universal
+<p>             type
+.               class
+#               id
+sel1, sel2      grouping (comma-separated)
+sel1.sel2       chaining (no-separation)
+sel1 sel2       descendant combinator
 
 
-font-family
-font-size
-font-style
-font-weight
+background-color: red;
+background-color: #ffffff;
+background-color: rgb(100, 0, 127);
+background-color: hsl(15, 82%, 56%);
+
+background-image: url(domainname.domain);
+backrougnd-image: url(./dir1/n.jpg);
+
+color: red;
+color: #ffffff;
+color: rgb(100, 0, 127);
+color: hsl(15, 82%, 56%);
+
+font-family: "Dejavu Sans"
+font-family: Verdana, "Dejavu Sans", sans-serif
+
+font-size: 3px;
+
+font-style: bold;
+font-style: italic;
+font-style: underline;
+
+font-weight: bold;
+font-weight: <700 = bold> (1-1000);
+
+height: 100px;
+height: auto;
+height: 50%;
+
+text-align: center;
+
+width: 500px;
+width: auto;
+width: 80%;
 
 
-BORDER
-    adds space (even if it's only a pixel or two) between the margin and the padding
+BORDER          adds space (even if it's only a pixel or two) between the margin and the padding
 border-color
 background-color
 height
@@ -18,16 +52,14 @@ width
 border-width
 
 
-MARGIN
-    increases the space between a box and any others that sit next to it
+MARGIN          increases the space between a box and any others that sit next to it
 margin-left: auto;
 margin-right: auto;
     Centering a <div> horizontally
 margin: 20px auto; /* Applies 20px top and bottom margin, auto left and right margin */
 
 
-PADDING
-    increases the space between the edge of a box and the content inside of it
+PADDING         increases the space between the edge of a box and the content inside of it
 padding-left: 20px;
 padding-right: 20px;
 padding-top: 20px;
@@ -38,18 +70,17 @@ padding: 20px; /* padding of 20px in all 4 sides */
 display: inline-block (only takes up the width of content)
     To manipulate block-level elements to inline elements
 
-height
 width
     Set the width of an element either in px or %
 max-width
     To set a max width and prevent from growing too wide
 
 PSEUDO-SELECTOR
-a:visited
-    Changes the color of the link when visited
+a:visited {         Changes the color of the link when visited
+    color: red; }
 
-a:hover
-    Changes the color of the link when hovered
+a:hover {           Changes the color of the link when hovered
+    color: yellow; }
 
-a:active
-    Changes the color of the link whe clicked
+a:active {          Changes the color of the link whe clicked
+    color: green; }

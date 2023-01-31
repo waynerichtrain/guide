@@ -69,7 +69,7 @@
     <input id="css" type="checkbox" name="prog-lang" value="css"><label for="css">CSS</label>
     <input id="js" type="checkbox" name="prog-lang" value="js"><label for="js">Javascript</label>
     </fieldset>
-    <input type="text" name="" placeholder="" required>
+    <input type="text" name="firstName" placeholder="" required>
     <button type="submit">Submit</submit>
 </form>
 <label></label>         associates text for an input element with the input element itself
