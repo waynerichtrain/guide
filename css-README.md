@@ -21,6 +21,12 @@ color: #ffffff;
 color: rgb(100, 0, 127);
 color: hsl(15, 82%, 56%);
 
+DISPLAY         To manipulate block-level elements to inline elements and vice versa
+display: block; (stack atop each other / new line)
+display: inline; (appears in line with the element beside - not good for padding and margin)
+display: inline-block; (only takes up the width of content - inline but with block-sstyle padding and margin)
+
+
 font-family: "Dejavu Sans"
 font-family: Verdana, "Dejavu Sans", sans-serif
 
@@ -66,9 +72,6 @@ padding-top: 20px;
 padding-bottom: 20px;
 padding: 20px; /* padding of 20px in all 4 sides */
 
-
-display: inline-block (only takes up the width of content)
-    To manipulate block-level elements to inline elements
 
 width
     Set the width of an element either in px or %
