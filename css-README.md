@@ -20,6 +20,9 @@ box-sizing: border-box;
     -webkit-box-sizing: border-box;     enables experimental features in specific browsers
     -moz-box-sizing: border-box;        enables experimental features in specific browsers
 
+COLORS (2 main color models: additive and subtractive)
+    RGB (red, green, blue)
+    CMYK (cyan, magenta, yellow, black)
 color: red;
 color: #ffffff;
 color: rgb(100, 0, 127);

@@ -1,8 +1,14 @@
 <head></head>
     Define meta contents of website
 
+<meta charset="UTF-8" />
+    Tells the browser how to encode characters
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    To style the page similarly on Mobile, Desktop, Laptop
+    To make the page looks the same on all mobile devices
+
+<title></title>
+    Gives search engines extra information about the page, and tab name
 
 <div></div>
     Mainly used for design layout purposes
