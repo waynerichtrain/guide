@@ -16,6 +16,10 @@ background-color: hsl(15, 82%, 56%);
 background-image: url(domainname.domain);
 backrougnd-image: url(./dir1/n.jpg);
 
+box-sizing: border-box;
+    -webkit-box-sizing: border-box;     enables experimental features in specific browsers
+    -moz-box-sizing: border-box;        enables experimental features in specific browsers
+
 color: red;
 color: #ffffff;
 color: rgb(100, 0, 127);
@@ -25,6 +29,11 @@ DISPLAY         To manipulate block-level elements to inline elements and vice v
 display: block; (stack atop each other / new line)
 display: inline; (appears in line with the element beside - not good for padding and margin)
 display: inline-block; (only takes up the width of content - inline but with block-sstyle padding and margin)
+display: none;          (hide or show elements without deleting or recreating)
+visibility: hidden;
+display: list-item;
+display: table;
+display: flex;
 
 
 font-family: "Dejavu Sans"
@@ -44,6 +53,8 @@ height: auto;
 height: 50%;
 
 text-align: center;
+
+visibility: hidden;         (hides the element but still takes up space)
 
 width: 500px;
 width: auto;
