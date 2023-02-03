@@ -8,10 +8,17 @@ sel1.sel2       chaining (no-separation)
 sel1 sel2       descendant combinator
 
 
+BACKGROUND / BACKGROUND-COLOR
+background: linear-gradient(90deg, rgb(255, 0, 0), rgb(0, 255, 0));
+    linear-gradinet(<gradientDirection, color1, color2>);
+background: linear-gradient(180deg, rgb(255, 0, 0) 0%, rgb(0, 255, 0) 50%, rgb(0, 0, 255) 100%);
+background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+
 background-color: red;
 background-color: #ffffff;
 background-color: rgb(100, 0, 127);
 background-color: hsl(15, 82%, 56%);
+
 
 background-image: url(domainname.domain);
 backrougnd-image: url(./dir1/n.jpg);
@@ -20,13 +27,16 @@ box-sizing: border-box;
     -webkit-box-sizing: border-box;     enables experimental features in specific browsers
     -moz-box-sizing: border-box;        enables experimental features in specific browsers
 
+
 COLORS (2 main color models: additive and subtractive)
     RGB (red, green, blue)
     CMYK (cyan, magenta, yellow, black)
+    HSL (hue, saturation, lightness)
 color: red;
-color: #ffffff;
-color: rgb(100, 0, 127);
-color: hsl(15, 82%, 56%);
+color: #ffffff;                 another for of rgb (red(2)green(2)blue(2) = #rrggbb)
+color: rgb(100, 0, 127);        red, green, blue combination
+color: hsl(15, 82%, 56%);       values: hue=0-360, saturation=0-100%, lightness=0-100%
+
 
 DISPLAY         To manipulate block-level elements to inline elements and vice versa
 display: block; (stack atop each other / new line)
