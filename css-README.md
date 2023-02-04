@@ -19,9 +19,15 @@ background-color: #ffffff;
 background-color: rgb(100, 0, 127);
 background-color: hsl(15, 82%, 56%);
 
-
 background-image: url(domainname.domain);
 backrougnd-image: url(./dir1/n.jpg);
+
+box-shadow: 5px 5px red;                to the right and down
+    box-shadow: <offsetX offsetY color>;
+box-shadow: -5px -5px red;              to the left and up
+box-shadow: 5px 5px 5px green;
+    box-shadow: <offsetX offsetY blurRadius color>;
+
 
 box-sizing: border-box;
     -webkit-box-sizing: border-box;     enables experimental features in specific browsers
@@ -32,10 +38,17 @@ COLORS (2 main color models: additive and subtractive)
     RGB (red, green, blue)
     CMYK (cyan, magenta, yellow, black)
     HSL (hue, saturation, lightness)
+    RGBA (red, green, blu, alphaChannel(opacity))
+    HEXA (red(2), green(2), blu(2), alphaChannel(opacity)(2))
+    HSLA (hue, saturation, lightness, alphaChannel(opacity))
 color: red;
 color: #ffffff;                 another for of rgb (red(2)green(2)blue(2) = #rrggbb)
 color: rgb(100, 0, 127);        red, green, blue combination
 color: hsl(15, 82%, 56%);       values: hue=0-360, saturation=0-100%, lightness=0-100%
+opacity: 0.5;                   opacity(0: transparent - 1.0: non-transparent)
+rgba(255, 255, 255, 0.5);
+#3B7E20CC;
+hsla(223, 59%, 31%, 0.8);
 
 
 DISPLAY         To manipulate block-level elements to inline elements and vice versa
@@ -65,6 +78,8 @@ height: 100px;
 height: auto;
 height: 50%;
 
+opacity: 0.5;               opacity(0: transparent - 1.0: non-transparent)
+
 text-align: center;
 
 visibility: hidden;         (hides the element but still takes up space)
@@ -75,11 +90,22 @@ width: 80%;
 
 
 BORDER          adds space (even if it's only a pixel or two) between the margin and the padding
-border-color
+border-left: 10px double rgba(0, 0, 0, 75%);
+    border-left-width: 10px;
+    border-left-style: solid;
+    border-left-color: black;
+
+border-color: red;
+border-color: rgba(0, 0, 0, 75%);
+
+border-style: solid;
+border-style: double;
+
+border-width: 10px;
 background-color
 height
 width
-border-width
+
 
 
 MARGIN          increases the space between a box and any others that sit next to it
