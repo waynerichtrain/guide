@@ -77,6 +77,7 @@ font-weight: <700 = bold> (1-1000);
 height: 100px;
 height: auto;
 height: 50%;
+height: 100vh;
 
 opacity: 0.5;               opacity(0: transparent - 1.0: non-transparent)
 
@@ -113,6 +114,7 @@ margin-left: auto;
 margin-right: auto;
     Centering a <div> horizontally
 margin: 20px auto; /* Applies 20px top and bottom margin, auto left and right margin */
+margin: 0.5rem 0;
 
 
 PADDING         increases the space between the edge of a box and the content inside of it

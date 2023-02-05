@@ -63,7 +63,35 @@
 </figure>
     Represents self-contained content to associate an image with a caption
 
+FORMS
 <form action="https://domainname.domain">
+method attribute specifies how to send form-data to the URL specified in the action attribute
+<form method="post" action="https://register-demo.freecodecamp.org">        form-data sent as data in the request body
+<form method="get" action="https://register-demo.freecodecamp.org">         form-data sent as URL parameters
+    <fieldset>
+        <legend>Input Types</legends>
+        <input id="first-name" type="text" name="" placeholder="" required>
+        <input type="text">
+        <input type="email">
+        <input type="password">
+            minlength="n"
+            pattern="[a-z0-5]{8,}"
+        <input type="submit" value="Submit">        automatically set to submit its nearest parent form element
+        <input type="radio">
+        <input type="checkbox">
+        <input type="file">
+        <input type="number">
+            min="n"
+            max="n"
+    </fieldset>
+    <fieldset>
+        <legend>Using the Select element</legend>
+        <label for="">
+            <select id="">
+                <option value=""></option>
+            </select>
+        </label>
+    </fieldset>
     <fieldset>
     <legend>Description of fieldset</legend>
     <input id="it" type="radio" name="field" value="it" checked><label for="it">Information Technology</label>
@@ -75,7 +103,6 @@
     <input id="css" type="checkbox" name="prog-lang" value="css"><label for="css">CSS</label>
     <input id="js" type="checkbox" name="prog-lang" value="js"><label for="js">Javascript</label>
     </fieldset>
-    <input type="text" name="firstName" placeholder="" required>
     <button type="submit">Submit</submit>
 </form>
 <label></label>         associates text for an input element with the input element itself
