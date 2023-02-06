@@ -128,14 +128,19 @@ padding-right: 20px;
 padding-top: 20px;
 padding-bottom: 20px;
 padding: 20px; /* padding of 20px in all 4 sides */
+padding: 2rem 0;
 
 
 PSEUDO-SELECTOR
-a:visited {         Changes the color of the link when visited
+a:visited {                 Changes the color of the link when visited
     color: red; }
 
-a:hover {           Changes the color of the link when hovered
+a:hover {                   Changes the color of the link when hovered
     color: yellow; }
 
-a:active {          Changes the color of the link whe clicked
+a:active {                  Changes the color of the link whe clicked
     color: green; }
+
+fieldset:last-of-type {     Targets the last element of a specific type
+    border-bottom: none;
+}
