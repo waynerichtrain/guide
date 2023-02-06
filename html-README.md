@@ -64,13 +64,13 @@
     Represents self-contained content to associate an image with a caption
 
 FORMS
+-it is a good practice to provide each submittable element with a name attribute, to identify the element in the form submission
 <form action="https://domainname.domain">
 method attribute specifies how to send form-data to the URL specified in the action attribute
 <form method="post" action="https://register-demo.freecodecamp.org">        form-data sent as data in the request body
 <form method="get" action="https://register-demo.freecodecamp.org">         form-data sent as URL parameters
     <fieldset>
         <legend>Input Types</legends>
-        <input id="first-name" type="text" name="" placeholder="" required>
         <input type="text">
         <input type="email">
         <input type="password">
@@ -85,23 +85,24 @@ method attribute specifies how to send form-data to the URL specified in the act
             max="n"
     </fieldset>
     <fieldset>
+        <legend>Using the Input element</legend>
+            <label for="first-name">Enter your first name: <input id="first-name" type="text" name="first-name" placeholder="" required></label>
+    </fieldset>
+    <fieldset>
+        <legend>Using the Input type Radio</legend>
+            <label for=""><input id="" type="" name="" value="" required checked>Select Me</label>
+    </fieldset>
+    <fieldset>
         <legend>Using the Select element</legend>
         <label for="">
-            <select id="">
+            <select id="" name="">
                 <option value=""></option>
             </select>
         </label>
     </fieldset>
     <fieldset>
-    <legend>Description of fieldset</legend>
-    <input id="it" type="radio" name="field" value="it" checked><label for="it">Information Technology</label>
-    <input id="cs" type="radio" name="field" value="cs"><label for="cs">Computer Science</label>
-    </fieldset>
-    <fieldset>
-    <legend>Description of fieldset</legend>
-    <input id="html" type="checkbox" name="prog-lang" value="html" checked><label for="html">HTML</label>
-    <input id="css" type="checkbox" name="prog-lang" value="css"><label for="css">CSS</label>
-    <input id="js" type="checkbox" name="prog-lang" value="js"><label for="js">Javascript</label>
+        <legend>Using the TextArea Element</legend>
+        <textarea id="" rows="n" cols="n"></textarea>
     </fieldset>
     <button type="submit">Submit</submit>
 </form>

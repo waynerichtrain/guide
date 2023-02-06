@@ -85,9 +85,14 @@ text-align: center;
 
 visibility: hidden;         (hides the element but still takes up space)
 
-width: 500px;
-width: auto;
-width: 80%;
+
+WIDTH
+width: 500px;               set the width of an element in px
+width: auto;                set the width of an element using keyword
+width: 80%;                 set the width of an element using percentage
+width: 60vw;                set the width of an element in viewport width
+max-width: 500px;           To set a max width and prevent from growing too wide
+min-width: 300px;
 
 
 BORDER          adds space (even if it's only a pixel or two) between the margin and the padding
@@ -108,13 +113,13 @@ height
 width
 
 
-
 MARGIN          increases the space between a box and any others that sit next to it
 margin-left: auto;
 margin-right: auto;
     Centering a <div> horizontally
 margin: 20px auto; /* Applies 20px top and bottom margin, auto left and right margin */
 margin: 0.5rem 0;
+margin: 1em auto;
 
 
 PADDING         increases the space between the edge of a box and the content inside of it
@@ -124,11 +129,6 @@ padding-top: 20px;
 padding-bottom: 20px;
 padding: 20px; /* padding of 20px in all 4 sides */
 
-
-width
-    Set the width of an element either in px or %
-max-width
-    To set a max width and prevent from growing too wide
 
 PSEUDO-SELECTOR
 a:visited {         Changes the color of the link when visited
