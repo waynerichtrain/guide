@@ -1,11 +1,12 @@
 SELECTORS:
-*               universal
-<p>             type
-.               class
-#               id
-sel1, sel2      grouping (comma-separated)
-sel1.sel2       chaining (no-separation)
-sel1 sel2       descendant combinator
+*                           universal
+<element>                   type
+.                           class
+#                           id
+sel1, sel2                  grouping (comma-separated)
+sel1.sel2                   chaining (no-separation)
+sel1 sel2                   descendant combinator
+elmnt[attr="attr-name"]     attribute
 
 
 BACKGROUND / BACKGROUND-COLOR
@@ -74,14 +75,18 @@ font-style: underline;
 font-weight: bold;
 font-weight: <700 = bold> (1-1000);
 
+HEIGTH
 height: 100px;
 height: auto;
 height: 50%;
 height: 100vh;
+min-height: 2em;
 
 opacity: 0.5;               opacity(0: transparent - 1.0: non-transparent)
 
 text-align: center;
+
+vertical-align: middle;
 
 visibility: hidden;         (hides the element but still takes up space)
 
@@ -91,6 +96,7 @@ width: 500px;               set the width of an element in px
 width: auto;                set the width of an element using keyword
 width: 80%;                 set the width of an element using percentage
 width: 60vw;                set the width of an element in viewport width
+width: unset;               unsets the width previously defined on same element
 max-width: 500px;           To set a max width and prevent from growing too wide
 min-width: 300px;
 
