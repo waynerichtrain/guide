@@ -62,6 +62,7 @@ display: list-item;
 display: table;
 display: flex;
 
+filter: blur(2px);
 
 font-family: "Dejavu Sans"
 font-family: Verdana, "Dejavu Sans", sans-serif
@@ -83,6 +84,8 @@ height: 100vh;
 min-height: 2em;
 
 opacity: 0.5;               opacity(0: transparent - 1.0: non-transparent)
+
+overflow: hidden;
 
 text-align: center;
 
@@ -109,6 +112,12 @@ border-left: 10px double rgba(0, 0, 0, 75%);
 
 border-color: red;
 border-color: rgba(0, 0, 0, 75%);
+
+border-radius: 9px;                 (in px or %)
+border-top-left-radius:
+border-top-right-radius:
+border-bottom-left-radius:
+border-bottom-right-radius:
 
 border-style: solid;
 border-style: double;
