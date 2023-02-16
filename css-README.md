@@ -5,8 +5,9 @@ SELECTORS:
 #                           id
 sel1, sel2                  grouping (comma-separated)
 sel1.sel2                   chaining (no-separation)
-sel1 sel2                   descendant combinator
 elmnt[attr="attr-name"]     attribute
+sel1 sel2                   descendant combinator
+sel1 > sel2                 child combinator
 
 
 BACKGROUND / BACKGROUND-COLOR
