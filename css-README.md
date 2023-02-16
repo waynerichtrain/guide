@@ -89,6 +89,9 @@ overflow: hidden;
 
 text-align: center;
 
+transform: rotate(0.6deg)       rotate 0.6degrees clockwise
+transform: rotate(-0.6deg)      rotate 0.6degrees counter-clockwise
+
 vertical-align: middle;
 
 visibility: hidden;         (hides the element but still takes up space)
@@ -114,6 +117,7 @@ border-color: red;
 border-color: rgba(0, 0, 0, 75%);
 
 border-radius: 9px;                 (in px or %)
+border-radius: 30px 25px 60px 12px;
 border-top-left-radius:
 border-top-right-radius:
 border-bottom-left-radius:
