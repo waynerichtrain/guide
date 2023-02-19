@@ -12,6 +12,12 @@ FLEX CONTAINTER AND FLEX ITEM
 display: flex;          to be declared in the container
 
 flex: 1;                to be declared in flex items
-    flex-grow
-    flex-shrink
-    flex-basis
+    flex-grow           the flex item's growth factor
+    flex-shrink         the flex item's shrink factor
+    flex-basis          set's the flex item's initial size: flex-grow and flex-shrink is based on flex-basis
+flex: 2;
+flex: 1 0 auto;         flex-basis: auto, checks for width declaration
+
+flex: 1;                = flex: 1 1 0;
+flex: 2;                = flex: 2 1 0;
+flex: auto;             = flex: 1 1 auto;
